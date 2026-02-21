@@ -100,7 +100,7 @@ export default function App() {
       <div className="fixed w-full">
         {/* Header */}
         <div className="flex items-center justify-between bg-[#202c33] px-5 h-[60px]">
-          <div className="flex items-center  gap-4 text-xl  text-center sticky tracking-wider">
+          <div className="flex items-center  gap-4 md:text-xl  text-center sticky tracking-wider">
             <img src="https://lh7-us.googleusercontent.com/dJPHFdm0kCPsHm2OoKoUVSwoXlOzubs0pCR6aiQlWdQUX5934KvF_pTZjO9QsEMWi9pMLQt6RZxAjVNHlMUlFG2uHfeFjZJrX6Ty83PknMj_PSTjCw1cUGl5DaZfPkiPPypiVk8h8uuEJZfQ-rWi3FY" alt="" className="w-10 h-10 rounded-[100%]" />
             <span className=" text-white flex flex-col  ">
               <span>Chatting ai</span>
@@ -113,14 +113,14 @@ export default function App() {
               onClick={() => setSetting(true)}
               className="flex flex-col items-center capitalize cursor-pointer"
             >
-              <IoMdSettings className="text-xl" />
+              <IoMdSettings className=" md:text-xl" />
               <span className="hidden md:block text-xs ">setting</span>
             </div>
             <div
               onClick={clearChat}
               className="flex flex-col items-center capitalize cursor-pointer"
             >
-              <IoTrashBinSharp className="text-xl" />
+              <IoTrashBinSharp className="md:text-xl" />
               <span className="hidden md:block text-xs">clear history</span>
             </div>
           </div>
