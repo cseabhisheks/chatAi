@@ -191,7 +191,7 @@ Only give long, detailed answers if I explicitly ask you to.`;
 
         {/* Chat Messages */}
         <div
-          className={`bg-[url('https://e0.pxfuel.com/wallpapers/722/149/desktop-wallpaper-message-background-whatsapp-message-background.jpg')] bg-center bg-cover flex flex-col px-5 pt-5 pb-[100px] h-[calc(100vh-60px)] overflow-scroll overflow-x-hidden`}
+          className={`bg-[url('https://e0.pxfuel.com/wallpapers/722/149/desktop-wallpaper-message-background-whatsapp-message-background.jpg')] bg-center bg-cover flex flex-col px-5 pt-5 pb-[150px] h-[calc(100vh-60px)] overflow-scroll overflow-x-hidden`}
         >
           {ask.map((message, idx) => (
             <pre
